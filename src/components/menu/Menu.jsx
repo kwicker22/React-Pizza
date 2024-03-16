@@ -52,7 +52,7 @@ export default function Menu(){
       <h2>OUR MENU</h2>
       <p>Authentic Italian cuisine. 6 creative dishes to choose from. All from our stone oven, all organic, all delicious</p>
       <ul className = "pizzas">{pizzaData.map(pizzas =>
-      <Pizza pizzaList={pizzas} key={pizzaData.name}/>)}
+      <Pizza pizzaList={pizzas} />)}
       </ul>
     </main>
   )
